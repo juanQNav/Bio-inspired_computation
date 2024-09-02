@@ -1,0 +1,1 @@
+python pso.py --np 5  --mxe 10 --dim 2 --minx -y --maxx x --w 0.729 --c1 1.49445 --c2 1.6 --output .\graphs\problem\ --function "" --constraints ""
