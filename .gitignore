@@ -1,6 +1,7 @@
 doc/
 build/
 graphs/
+*.bib
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
