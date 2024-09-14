@@ -1,0 +1,13 @@
+Parameter,Value
+Number of particles,30
+Max Epochs,10
+Dimensions,7
+Min x,-10.0
+Max x,10.0
+Inertia,0.99
+C1,1.99
+C2,1.99
+Best Solution,0,0,0,0,1,1,1
+Total gain,9050000
+Best Error,-9050000
+Total Time (seconds),0.0009808540344238281
