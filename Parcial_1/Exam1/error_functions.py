@@ -7,19 +7,19 @@ def error(position):
         err += (xi * xi) - (10 * math.cos(2 * math.pi * xi)) + 10
     return err
 
-# 1 2 5concurso de alambre
+# 1 2 5
 def fun_max_area_quadrilateral(position):
     x, y = position
     area = x * y
     return -area  # We deny the area to convert the problem to minimization.
 
-#3 cercar un solar rectangular (otro)
+#3 fence a rectangular lot (other)
 def fun_min_cost_valla(position):
     x, y = position
     cost = 8 * (x + y)
     return cost
 
-#4 ventana rectangular
+#4 rectangular window
 def fun_max_window_area(position):
     x,y = position
     area_rect = x * y

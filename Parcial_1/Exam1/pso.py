@@ -1,5 +1,5 @@
 # Quistian Navarro Juan Luis
-# comando para ejecutar:
+# command to run the script:
 # python pso.py --np 30 --mxe 10 --dim 7 --minx -10 --maxx 10 --w 0.99 --c1 1.99 --c2 1.99 --output ./ambicious_thief --dir .\dataset\ambicius_thief.csv  --binary 'True'
 
 import random
