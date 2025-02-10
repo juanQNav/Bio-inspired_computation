@@ -23,7 +23,7 @@ pip install numpy pandas deap tqdm matplotlib
 The script allows tuning of multiple genetic algorithm parameters. Run the script with the following arguments:
 
 ```bash
-python reg_simb.py --cxb "(0.1, 0.6)" --mut "(0.5, 0.9)" --gen "(1, 4)" --npop "(100, 125)" --function "mse" --output "results" --label_func "Symbolic Regression"
+python reg_simb.py --cxb "0.1,0.6" --mut "0.5,0.9" --gen "1,4" --npop "100,125" --function "f_exam" --output ./f_x2_plus_sin_x --label_func "y = x² + sin(x)"
 ```
 
 ### Parameters:
